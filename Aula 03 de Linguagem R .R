@@ -1,22 +1,22 @@
 
-## Funções:
+## FunÃ§Ãµes:
 
-# A variavel "serieQ" vai apontar para um bloco de funções e esse bloco vai passar valores para a variavel A
+# A variavel "serieQ" vai apontar para um bloco de funÃ§Ãµes e esse bloco vai passar valores para a variavel A
 
-# o nome da função (SerieQ) é o endereço da função na memória (armazena o texto da função)
+# o nome da funÃ§Ã£o (SerieQ) Ã© o endereÃ§o da funÃ§Ã£o na memÃ³ria (armazena o texto da funÃ§Ã£o)
 ###########################################################################
-serieQ <- function(a) { # o A é uma variavel dentro de uma função ela que vai receber o dado passado para ela. (Formal)
-  for(i in 1:a){ # variavel i vai varial de 1 até "a"
+serieQ <- function(a) { # o A Ã© uma variavel dentro de uma funÃ§Ã£o ela que vai receber o dado passado para ela. (Formal)
+  for(i in 1:a){ # variavel i vai varial de 1 atÃ© "a"
     b <- i^2
     print(b)
   }
 }
 ############################################
-# Para executar uma função é preciso evocar ela, então é preciso colocar parenteses:
+# Para executar uma funÃ§Ã£o Ã© preciso evocar ela, entÃ£o Ã© preciso colocar parenteses:
 
-serieQ(3) # Preciso passar também o valor do parametro de A, nesse caso A = 3.
+serieQ(3) # Preciso passar tambÃ©m o valor do parametro de A, nesse caso A = 3.
 ###############################################
-## Função que devolve parametro:
+## FunÃ§Ã£o que devolve parametro:
 #############################################
 somaQ <- function(b){
   soma <- 0
@@ -29,7 +29,7 @@ somaQ <- function(b){
 x<- somaQ(3)
 print(x)
 ###########################################################
-# Caso eu não queira usar o 'return'
+# Caso eu nÃ£o queira usar o 'return'
 ###########################################################
 somaQ <- function(b){
   soma <- 0
@@ -42,9 +42,9 @@ somaQ <- function(b){
 x<- somaQ(3)
 print(x)
 
-# Toda função em R tem return, o valor da variavel é o return da função
+# Toda funÃ§Ã£o em R tem return, o valor da variavel Ã© o return da funÃ§Ã£o
 ##########################################################
-# Uma função que retorna o maior valor 
+# Uma funÃ§Ã£o que retorna o maior valor 
 ##########################################################
 maior2<-function(a,b){
   if (a>b){
@@ -57,7 +57,7 @@ y<-maior2(3,4)
 print(y)
 
 ################################################################
-# Uma função que retorna o menor valor
+# Uma funÃ§Ã£o que retorna o menor valor
 ###############################################################
 menor3<-function(a,b,c){
   if(a<b)
